@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(/images/SKY1.jpg);
+
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20PX 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20PX;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+
+}
+
+.detel h1 {
+    margin-bottom: 200PX;
+    text-shadow: 8px 2px 4px blue;
+    font-size: xx-large;
+    color: greenyellow;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transform: bottom 2s left 2s;
+}
+
+.boy {
+    border-radius: 500px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+
+.eror {
+    text-shadow: 4px 4px 5px blueviolet;
+    padding-top: 0%;
+    font-size: larger;
+}
+
+.footer a {
+    background-color: violet;
+    font-size: larger;
+    border-radius: 0%;
+    padding-right: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ghad {
+    background-color: rgb(137, 155, 155);
+    text-align: left;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 200px;
+}
+
+.risa {
+    background-color: skyblue;
+}
+
+.skills {
+    font-size: xx-large;
+    text-shadow: rgb(153, 255, 0) 0px 2px 1px;
+    padding-right: 50%;
+}
+
+.social {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.Ghad {
+    padding-bottom: 50%;
+    text-shadow: black 1px 2px 2px;
+    background-color: darkgray;
+    font-size: x-large;
+
+}
+
+.ella {
+    text-shadow: 3px 2px 3px pink;
+    font-family: initial;
+    font-size: large;
+}
+
+#watsap {
+    margin-right: 30%;
+    color: green;
+    font-size: xx-large;
+}
+
+#ins {
+    margin-bottom: 30px;
+    color: blueviolet;
+    font-size: xx-large;
+}
+
+#face {
+    margin-right: 30%;
+    color: blue;
+    font-size: xx-large;
+}
+
+.web {
+    color: rgb(128, 139, 34);
+    text-shadow: black 2px 2px 2px;
+    font-size: x-large;
+}
+
+#cv {
+    font-size: xx-large;
+    border-radius: 20%;
+    text-shadow: black 1px 2px 1px;
+}
+
+.FLEX {
+    display: flex;
+
+}
